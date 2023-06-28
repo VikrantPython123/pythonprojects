@@ -9,6 +9,7 @@ print(number_1)
                     #as heelo is not defined  here  for string we have to put it in the quotes
 string_1 = "heelo"
 print(string_1)
+## this takes float value only here
 num_float_1 = 23.0
 print(type(num_float_1))   # <class 'float'>
 
@@ -18,7 +19,7 @@ You can play around with the code to see what happens as you change the number i
 num_float_2="{:.2f}".format(num_float_1) 
 print(num_float_2)
 ## similarly we can use "{:.3f}"".format to change format to 3 points
-
+## this is the way to do it
 num_float_3="{:.3f}".format(num_float_1)
 print(num_float_3)
 ###  program to use pythagoras therorem 
